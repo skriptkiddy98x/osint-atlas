@@ -1,16 +1,16 @@
 {
-  "checked": "2026-10-29",
+  "checked": "2026-11-01",
   "total": 579,
   "counts": {
-    "blocked": 57,
-    "broken": 2,
-    "ok": 515,
-    "warn": 5
+    "blocked": 74,
+    "broken": 6,
+    "ok": 495,
+    "warn": 4
   },
   "issues": {
-    "https://2gis.ru": {
-      "state": "broken",
-      "detail": "TimeoutError"
+    "https://800notes.com": {
+      "state": "blocked",
+      "detail": "403"
     },
     "https://adsb.lol": {
       "state": "blocked",
@@ -20,9 +20,21 @@
       "state": "blocked",
       "detail": "403"
     },
+    "https://archive.org/details/tv": {
+      "state": "broken",
+      "detail": "TimeoutError"
+    },
+    "https://archive.ph": {
+      "state": "blocked",
+      "detail": "429"
+    },
     "https://aviation-safety.net": {
       "state": "blocked",
       "detail": "403"
+    },
+    "https://bgp.tools": {
+      "state": "blocked",
+      "detail": "429"
     },
     "https://blockchair.com": {
       "state": "blocked",
@@ -48,11 +60,19 @@
       "state": "blocked",
       "detail": "403"
     },
-    "https://crt.sh": {
-      "state": "warn",
-      "detail": "502"
+    "https://ddosecrets.com": {
+      "state": "broken",
+      "detail": "TimeoutError"
+    },
+    "https://e-justice.europa.eu": {
+      "state": "blocked",
+      "detail": "403"
     },
     "https://epieos.com": {
+      "state": "blocked",
+      "detail": "403"
+    },
+    "https://etherscan.io": {
       "state": "blocked",
       "detail": "403"
     },
@@ -64,7 +84,15 @@
       "state": "blocked",
       "detail": "403"
     },
+    "https://ffmpeg.org": {
+      "state": "broken",
+      "detail": "TimeoutError"
+    },
     "https://finstat.sk": {
+      "state": "blocked",
+      "detail": "403"
+    },
+    "https://fotoforensics.com": {
       "state": "blocked",
       "detail": "403"
     },
@@ -76,9 +104,13 @@
       "state": "blocked",
       "detail": "403"
     },
-    "https://id-ransomware.malwarehunterteam.com": {
-      "state": "warn",
-      "detail": "521"
+    "https://grep.app": {
+      "state": "blocked",
+      "detail": "429"
+    },
+    "https://identify.plantnet.org": {
+      "state": "broken",
+      "detail": "TimeoutError"
     },
     "https://intel.arkm.com": {
       "state": "blocked",
@@ -96,7 +128,15 @@
       "state": "blocked",
       "detail": "403"
     },
+    "https://platesmania.com": {
+      "state": "blocked",
+      "detail": "403"
+    },
     "https://psnprofiles.com": {
+      "state": "blocked",
+      "detail": "403"
+    },
+    "https://scholar.google.com": {
       "state": "blocked",
       "detail": "403"
     },
@@ -107,6 +147,10 @@
     "https://securitytrails.com": {
       "state": "blocked",
       "detail": "403"
+    },
+    "https://spur.us": {
+      "state": "blocked",
+      "detail": "429"
     },
     "https://steamdb.info": {
       "state": "blocked",
@@ -124,6 +168,10 @@
       "state": "blocked",
       "detail": "403"
     },
+    "https://tineye.com": {
+      "state": "blocked",
+      "detail": "403"
+    },
     "https://transparency.meta.com/researchtools/meta-content-library": {
       "state": "warn",
       "detail": "400"
@@ -135,6 +183,10 @@
     "https://voterrecords.com": {
       "state": "blocked",
       "detail": "403"
+    },
+    "https://web.archive.org/save": {
+      "state": "broken",
+      "detail": "TimeoutError"
     },
     "https://whatsmyname.app": {
       "state": "warn",
@@ -156,6 +208,10 @@
       "state": "blocked",
       "detail": "403"
     },
+    "https://www.blockchain.com/explorer": {
+      "state": "blocked",
+      "detail": "403"
+    },
     "https://www.cisa.gov/known-exploited-vulnerabilities-catalog": {
       "state": "blocked",
       "detail": "403"
@@ -164,11 +220,15 @@
       "state": "blocked",
       "detail": "403"
     },
-    "https://www.facebook.com/ads/library": {
+    "https://www.documentcloud.org": {
       "state": "blocked",
       "detail": "403"
     },
-    "https://www.fastpeoplesearch.com": {
+    "https://www.europeana.eu": {
+      "state": "blocked",
+      "detail": "403"
+    },
+    "https://www.facebook.com/ads/library": {
       "state": "blocked",
       "detail": "403"
     },
@@ -196,10 +256,6 @@
       "state": "blocked",
       "detail": "405"
     },
-    "https://www.livejournal.com": {
-      "state": "broken",
-      "detail": "TimeoutError"
-    },
     "https://www.loc.gov/web-archives/": {
       "state": "blocked",
       "detail": "403"
@@ -212,6 +268,10 @@
       "state": "blocked",
       "detail": "403"
     },
+    "https://www.newspapers.com": {
+      "state": "blocked",
+      "detail": "403"
+    },
     "https://www.npmjs.com": {
       "state": "blocked",
       "detail": "403"
@@ -220,11 +280,19 @@
       "state": "blocked",
       "detail": "403"
     },
+    "https://www.opensecrets.org": {
+      "state": "blocked",
+      "detail": "403"
+    },
     "https://www.pappers.fr": {
       "state": "blocked",
       "detail": "403"
     },
     "https://www.pressreader.com": {
+      "state": "blocked",
+      "detail": "403"
+    },
+    "https://www.profesia.sk": {
       "state": "blocked",
       "detail": "403"
     },
@@ -244,6 +312,10 @@
       "state": "blocked",
       "detail": "403"
     },
+    "https://www.shodan.io": {
+      "state": "blocked",
+      "detail": "403"
+    },
     "https://www.tellows.com": {
       "state": "blocked",
       "detail": "403"
@@ -256,7 +328,15 @@
       "state": "blocked",
       "detail": "403"
     },
-    "https://www.yahoo.co.jp": {
+    "https://www.webarchiv.cz": {
+      "state": "broken",
+      "detail": "404"
+    },
+    "https://www.webdepozit.sk": {
+      "state": "warn",
+      "detail": "TLS chain"
+    },
+    "https://x.com/search-advanced": {
       "state": "blocked",
       "detail": "403"
     },
